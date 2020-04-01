@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">recuerdo</string>
+    <string name="saludo">CALCULADORA BASICA1</string>
+    <string name="respuesta">respuesta</string>
+    <string name="sumar">sumar</string>
+    <string name="resta">resta</string>
+    <string name="milti">multi</string>
+    <string name="div">dividir</string>
+    <string name="clear">limpi</string>
+    <string name="cal2">CAL II</string>
+    <string name="numero1">ingrese numero1</string>
+    <string name="numero2">ingrese numero2</string>
+</resources>

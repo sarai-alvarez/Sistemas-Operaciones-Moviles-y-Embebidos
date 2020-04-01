@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/depp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/captura">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:text="@string/saludo"
+             />
+
+        <EditText
+            android:id="@+id/etnumero1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorAccent"
+            android:hint="@string/numero1"
+
+            />
+
+        <EditText
+            android:id="@+id/etnumero2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorAccent"
+            android:hint="@string/numero2"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+
+            android:text="@string/respuesta"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btSumar"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sumar"
+
+                />
+            <Button
+                android:id="@+id/btRestar"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/resta"
+                />
+            <Button
+                android:id="@+id/btMulti"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/milti"
+                />
+            <Button
+                android:id="@+id/btDiv"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/div"
+                />
+            <Button
+                android:id="@+id/btclear"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/clear"
+                />
+            <Button
+                android:id="@+id/btcal2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cal2"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
