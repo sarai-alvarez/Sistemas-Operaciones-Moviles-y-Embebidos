@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        >
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+
+            android:src="@drawable/vi"></ImageView>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="0dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/saludo"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvcochabamba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="@string/cochabamba" />
+                <TextView
+                    android:id="@+id/tvccC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/c_confirC" />
+
+                <EditText
+                    android:id="@+id/etnumero1C"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="150dp"
+
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorAccent"
+                    android:hint="@string/casos1"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvcsC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/c_sospeC" />
+
+                <EditText
+                    android:id="@+id/etnumero2C"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorAccent"
+                    android:hint="@string/casos2" />
+            </LinearLayout>
+
+            ////////////////////////////////////////////////
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvsantacruz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="@string/santacruz" />
+                <TextView
+                    android:id="@+id/tvccS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/c_confirS" />
+
+                <EditText
+                    android:id="@+id/etnumero1S"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="150dp"
+
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorAccent"
+                    android:hint="@string/casos1S"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvcsS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/c_sospeS" />
+
+                <EditText
+                    android:id="@+id/etnumero2S"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorAccent"
+                    android:hint="@string/casos2S" />
+            </LinearLayout>
+
+            /////////////////////////////////////////////////
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvcoruro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="@string/oruro" />
+                <TextView
+                    android:id="@+id/tvccO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/c_confirO" />
+
+                <EditText
+                    android:id="@+id/etnumero1O"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="150dp"
+
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorAccent"
+                    android:hint="@string/casos1O"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvcsO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/c_sospeO" />
+
+                <EditText
+                    android:id="@+id/etnumero2O"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorAccent"
+                    android:hint="@string/casos2O" />
+            </LinearLayout>
+        </LinearLayout>//primera parte///////////////
+        ///////////////////////////////
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editingre1"
+                android:layout_width="54dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:background="@color/colorAccent"
+                android:hint="@string/ingresar1"
+                ></EditText>
+
+            <EditText
+                android:id="@+id/editingre2"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:background="@color/colorAccent"
+                android:hint="@string/ingresar2"
+                ></EditText>
+            <EditText
+                android:id="@+id/editingre3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:background="@color/colorAccent"
+                android:hint="@string/ingresarciu"
+                >
+            </EditText>
+            <Button
+                android:id="@+id/btsetvalue"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/setvalues">
+            </Button>
+
+        </LinearLayout>
+        ////////////////////////////////////////fin diseno 2
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btcalcular"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/calcular">
+            </Button>
+
+            <TextView
+                android:id="@+id/mensaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:text="@string/mensaje" />
+
+        </LinearLayout>
+
+
+
+        /////////////////////////////////////////////
+    </LinearLayout>
+</LinearLayout>

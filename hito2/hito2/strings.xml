@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">hito2_sarai_alvarez</string>
+
+
+    <string name="saludo">coronavirus</string>
+    <string name="casos1">N.casos</string>
+    <string name="casos2">N.casos</string>
+    <string name="c_confirC">N.casos confirmados</string>
+    <string name="c_sospeC">N.casos sospechosos</string>
+    <string name="cochabamba">COCHABAMBA</string>
+
+    ///////
+    <string name="casos1S">N.casos</string>
+    <string name="casos2S">N.casos</string>
+    <string name="c_confirS">N.casos confirmados</string>
+    <string name="c_sospeS">N.casos sospechosos</string>
+    <string name="santacruz">SATA CRUZ</string>
+    ////
+    <string name="casos1O">N.casos</string>
+    <string name="casos2O">N.casos</string>
+    <string name="c_confirO">N.casos confirmados</string>
+    <string name="c_sospeO">N.casos sospechosos</string>
+    <string name="oruro">ORURO</string>
+    /////////////////////////////////////////////////////////////////
+    <string name="ingresar1"></string>
+    <string name="ingresar2"></string>
+    <string name="ingresarciu"></string>
+    <string name="setvalues">setvalues</string>
+
+    <string name="calcular">calcular</string>
+    <string name="mensaje"></string>
+
+</resources>
