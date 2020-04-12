@@ -1,0 +1,15 @@
+<resources>
+<string name="app_name">Epidemia coronavirus</string>
+<string name="cochabamba">cochabamba</string>
+<string name="santacruz">Santa Cruz</string>
+<string name="oruro">Oruro</string>
+<string name="confirmados">casos confirmados</string>
+<string name="sospechosos">casos sospechosos</string>
+<string name="placeholder">Nro de casos</string>
+<string name="conf">conf</string>
+<string name="cs">sosp</string>
+<string name="ciudad">ciudad</string>
+<string name="setValues">set values</string>
+<string name="busqueda">buscar</string>
+<string name="calcular">calcular</string>
+</resources>

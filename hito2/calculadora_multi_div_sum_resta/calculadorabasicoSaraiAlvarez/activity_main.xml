@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvrespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+
+
+
+    <EditText
+        android:id="@+id/intro1"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="15dp"
+        android:paddingVertical="10dp"
+        android:paddingStart="20dp"
+        android:background="@color/colorAccent">
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/intro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="250dp"
+        android:paddingVertical="10dp"
+        android:paddingStart="20dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp">
+    </EditText>
+
+
+
+
+    <Button
+        android:id="@+id/buttS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingVertical="20dp"
+        android:text="@string/sum">
+    </Button>
+
+    <Button
+        android:id="@+id/buttR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:paddingVertical="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/rest">
+
+    </Button>
+
+    <Button
+        android:id="@+id/buttM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingVertical="20dp"
+        android:text="@string/mul">
+    </Button>
+
+
+    <Button
+        android:id="@+id/buttD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingVertical="20dp"
+        android:text="@string/div">
+
+    </Button>
+
+
+</LinearLayout>
+
+
+
+
+
