@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboarding.Fragment1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="663dp"
+        android:layout_height="438dp"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/img1"
+        android:orientation="horizontal" />
+    <TextView
+        android:id="@+id/some"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/some"
+        android:textColor="@color/naranja"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/mensaje1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/mensajesome"
+        android:textColor="@color/naranja"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="131dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/color"
+            android:text="Skype"
+            android:textColor="@color/blanco"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+        <TextView
+            android:id="@+id/tvNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:layout_gravity="bottom|end"
+            android:gravity="bottom|end"
+            android:layout_weight="1"
+            android:textColor="@color/naranja"
+            android:textSize="30sp"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".contenedor.calcu">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bb"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:id="@+id/caja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="27dp"
+        android:background="@drawable/et_style"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    /////// layout primera fila
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/raiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="√"
+            android:background="@drawable/botones"/>
+        <Button
+            android:id="@+id/x2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X2"
+            android:background="@drawable/botones"/>
+        <Button
+            android:id="@+id/xy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xy"
+            android:textSize="13sp"
+            android:background="@drawable/botones"
+            />
+        <Button
+            android:id="@+id/fact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fac"
+            android:background="@drawable/botones"/>
+    </LinearLayout>////fin layout primera fila
+
+
+    //////////layout2
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+    </LinearLayout> ///////fin layout2
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:background="@drawable/botones"/>
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:background="@drawable/botones"/><Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:background="@drawable/botones"/>
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:background="@drawable/botones"/>
+
+
+
+    </LinearLayout>
+
+    ////layout tercera fila fila
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+/////////////////
+        <Button
+            android:id="@+id/b0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:background="@drawable/botones"/>
+        <Button
+            android:id="@+id/btnshift"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="SHIFT"
+            android:background="@drawable/et_style"/>
+
+        <Button
+            android:id="@+id/editlimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones"
+            android:text="C" />
+    </LinearLayout>////fin layout tercera fila fila
+
+
+
+    ////layout cuarta fila
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/editres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:background="@drawable/botones"/>
+        <Button
+            android:id="@+id/editsum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:background="@drawable/botones"/>
+        <Button
+            android:id="@+id/editdiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:background="@drawable/botones"/>
+        <Button
+            android:id="@+id/editmul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:background="@drawable/botones"/>
+
+    </LinearLayout>/////fin cuarta fila
+
+
+    ////////////layout 5ta fila
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+        <Button
+            android:id="@+id/editigual"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:background="@drawable/botones"/>
+    </LinearLayout>/////fin yayout 5ta fila
+
+
+
+
+
+
+
+
+</LinearLayout>//////////////////fin
+
+</RelativeLayout>
+
