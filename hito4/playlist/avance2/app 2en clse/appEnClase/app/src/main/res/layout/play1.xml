@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/rlListItemplay"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/verdeclaro"
+android:padding="12dp">
+
+
+
+<TextView
+    android:id="@+id/tvImage1"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:text="@string/canada"
+    android:layout_marginStart="5dp"
+    android:layout_centerVertical="true"
+    android:padding="15dp"
+    android:textColor="@color/blanco"
+    android:textSize="20sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/reproducir"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="220dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pausa"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="220dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/apagar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="300dp"
+        />
+</RelativeLayout>
